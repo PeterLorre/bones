@@ -1,4 +1,5 @@
-/******************************************************************
+/*///////////////////////////////////////////////////////////////////////
+
 Site Name:
 Author:
 
@@ -18,12 +19,12 @@ http://sachagreif.com/useful-sass-mixins/
 http://thesassway.com/intermediate/leveraging-sass-mixins-for-cleaner-code
 http://web-design-weekly.com/blog/2013/05/12/handy-sass-mixins/
 
-******************************************************************/
+///////////////////////////////////////////////////////////////////////*/
 
 
-/*********************
+/*/////////////////
 TRANSITION
-*********************/
+/////////////////*/
 
 /*
 I totally rewrote this to be cleaner and easier to use.
@@ -40,11 +41,11 @@ USAGE: @include transition(all 0.2s ease-in-out);
   }
 }
 
-/*********************
+/*
 CSS3 GRADIENTS
 Be careful with these since they can
 really slow down your CSS. Don't overdo it.
-*********************/
+*/
 
 /* @include css-gradient(#dfdfdf,#f8f8f8); */
 @mixin css-gradient($from: #dfdfdf, $to: #f8f8f8) {
@@ -56,9 +57,9 @@ really slow down your CSS. Don't overdo it.
 	background-image: linear-gradient(to bottom, $from, $to);
 }
 
-/*********************
+/*/////////////////
 BOX SIZING
-*********************/
+/////////////////*/
 
 /* @include box-sizing(border-box); */
 /* NOTE: value of "padding-box" is only supported in Gecko. So
