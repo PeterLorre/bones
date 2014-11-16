@@ -46,7 +46,6 @@ I've edited it a bit, but it's a nice starting point.
 some nice typographical defaults
 more here: http://www.newnet-soft.com/blog/csstypography
 */
-/* line 65, ../scss/partials/_typography.scss */
 p {
   -ms-word-break: break-all;
   -ms-word-wrap: break-all;
@@ -87,23 +86,19 @@ anymore, so just be aware that if you drop
 them in here, they won't work.
 */
 /* .menu is clearfixed inside mixins.scss */
-/* line 34, ../scss/breakpoints/_481up.scss */
 .menu {
   /* end .menu ul */
 }
-/* line 35, ../scss/breakpoints/_481up.scss */
 .menu ul {
   /* end .menu ul li */
   /* highlight current page */
   /* end current highlighters */
 }
-/* line 36, ../scss/breakpoints/_481up.scss */
 .menu ul li {
   /*
   plan your menus and drop-downs wisely.
   */
 }
-/* line 37, ../scss/breakpoints/_481up.scss */
 .menu ul li a {
   /*
   you can use hover styles here even though this size
@@ -113,23 +108,19 @@ them in here, they won't work.
 
 /* end .menu */
 /* entry content */
-/* line 82, ../scss/breakpoints/_481up.scss */
 .entry-content {
   /* at this larger size, we can start to align images */
 }
-/* line 86, ../scss/breakpoints/_481up.scss */
 .entry-content .alignleft, .entry-content img.alignleft {
   margin-right: 1.5em;
   display: inline;
   float: left;
 }
-/* line 91, ../scss/breakpoints/_481up.scss */
 .entry-content .alignright, .entry-content img.alignright {
   margin-left: 1.5em;
   display: inline;
   float: right;
 }
-/* line 96, ../scss/breakpoints/_481up.scss */
 .entry-content .aligncenter, .entry-content img.aligncenter {
   margin-right: auto;
   margin-left: auto;
@@ -143,24 +134,20 @@ check your menus here. do they look good?
 do they need tweaking?
 */
 /* end .footer-links */
-/* line 27, ../scss/breakpoints/_768up.scss */
 .wrap {
   width: 760px;
 }
 
-/* line 43, ../scss/breakpoints/_768up.scss */
 .nav {
   border: 0;
   /* end .menu ul li */
   /* highlight current page */
   /* end current highlighters */
 }
-/* line 45, ../scss/breakpoints/_768up.scss */
 .nav ul {
   background: #323944;
   margin-top: 0;
 }
-/* line 49, ../scss/breakpoints/_768up.scss */
 .nav li {
   float: left;
   position: relative;
@@ -169,7 +156,6 @@ do they need tweaking?
   */
   /* showing sub-menus */
 }
-/* line 53, ../scss/breakpoints/_768up.scss */
 .nav li a {
   border-bottom: 0;
   /*
@@ -177,12 +163,10 @@ do they need tweaking?
   has the possibility of being a mobile device.
   */
 }
-/* line 60, ../scss/breakpoints/_768up.scss */
 .nav li a:hover, .nav li a:focus {
   color: white;
   text-decoration: underline;
 }
-/* line 73, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu,
 .nav li ul.children {
   margin-top: 0;
@@ -193,7 +177,6 @@ do they need tweaking?
   z-index: 8999;
   /* highlight sub-menu current page */
 }
-/* line 81, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li,
 .nav li ul.children li {
   /*
@@ -202,7 +185,6 @@ do they need tweaking?
   for usability. k, bai.
   */
 }
-/* line 83, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
   padding-left: 10px;
@@ -211,46 +193,38 @@ do they need tweaking?
   width: 180px;
   border-bottom: 1px solid #ccc;
 }
-/* line 100, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li:last-child a,
 .nav li ul.children li:last-child a {
   border-bottom: 0;
 }
-/* line 110, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li ul,
 .nav li ul.children li ul {
   top: 0;
   left: 100%;
 }
-/* line 125, ../scss/breakpoints/_768up.scss */
 .nav li:hover > ul {
   top: auto;
   visibility: visible;
 }
 
 /* end .nav */
-/* line 145, ../scss/breakpoints/_768up.scss */
 .sidebar {
   margin-top: 2.2em;
 }
 
-/* line 149, ../scss/breakpoints/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 154, ../scss/breakpoints/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 159, ../scss/breakpoints/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 167, ../scss/breakpoints/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -272,7 +246,6 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 275, ../scss/breakpoints/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.
@@ -282,7 +255,6 @@ mobile. Make sure to double check these!
 }
 
 /* end .footer-links */
-/* line 13, ../scss/breakpoints/_1030up.scss */
 .wrap {
   width: 1040px;
 }
