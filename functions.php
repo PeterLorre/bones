@@ -14,10 +14,10 @@ require_once( 'library/crunge.php' );
 // CUSTOMIZE THE WORDPRESS ADMIN (off by default)
 // require_once( 'library/admin.php' );
 
-/*********************
-LAUNCH crunge
+/*////////////////////////////////////////
+LAUNCH CRUNGE
 Let's get everything up and running.
-*********************/
+////////////////////////////////////////*/
 
 function crunge_ahoy() {
 
@@ -61,13 +61,13 @@ function crunge_ahoy() {
 add_action( 'after_setup_theme', 'crunge_ahoy' );
 
 
-/************* OEMBED SIZE OPTIONS *************/
+/*////////////// OEMBED SIZE OPTIONS //////////////*/
 
 if ( ! isset( $content_width ) ) {
 	$content_width = 640;
 }
 
-/************* THUMBNAIL SIZE OPTIONS *************/
+/*////////////// THUMBNAIL SIZE OPTIONS //////////////*/
 
 // Thumbnail sizes
 add_image_size( 'crunge-thumb-600', 600, 150, true );
@@ -110,7 +110,7 @@ duplicate one of the lines in the array and name it according to your
 new image size.
 */
 
-/************* THEME CUSTOMIZE *********************/
+/*////////////////// THEME CUSTOMIZE //////////////////*/
 
 /* 
   A good tutorial for creating your own Sections, Controls and Settings:
@@ -147,7 +147,7 @@ function crunge_theme_customizer($wp_customize) {
 
 add_action( 'customize_register', 'crunge_theme_customizer' );
 
-/************* ACTIVE SIDEBARS ********************/
+/*////////////////// ACTIVE SIDEBARS //////////////////*/
 
 // Sidebars & Widgetizes Areas
 function crunge_register_sidebars() {
@@ -188,7 +188,7 @@ function crunge_register_sidebars() {
 } // don't remove this bracket!
 
 
-/************* COMMENT LAYOUT *********************/
+/*//////////////////// COMMENT LAYOUT ////////////////////*/
 
 // Comment Layout
 function crunge_comments( $comment, $args, $depth ) {

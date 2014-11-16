@@ -21,13 +21,13 @@ URL: http://crungedesign.com
 
 */
 
-/*********************
+/*
 WP_HEAD GOODNESS
 The default wordpress head is
 a mess. Let's clean it up by
 removing all the junk we don't
 need.
-*********************/
+*/
 
 function crunge_head_cleanup() {
 	// category feeds
@@ -115,9 +115,9 @@ function crunge_gallery_style($css) {
 }
 
 
-/*********************
+/*////////////////////////////
 SCRIPTS & ENQUEUEING
-*********************/
+////////////////////////////*/
 
 // loading modernizr and jquery, and reply script
 function crunge_scripts_and_styles() {
@@ -161,9 +161,9 @@ function crunge_scripts_and_styles() {
 	}
 }
 
-/*********************
+/*/////////////////////
 THEME SUPPORT
-*********************/
+/////////////////////*/
 
 // Adding WP 3+ Functions & Theme Support
 function crunge_theme_support() {
@@ -218,9 +218,9 @@ function crunge_theme_support() {
 } /* end crunge theme support */
 
 
-/*********************
+/*///////////////////////////
 RELATED POSTS FUNCTION
-*********************/
+///////////////////////////*/
 
 // Related Posts Function (call using crunge_related_posts(); )
 function crunge_related_posts() {
@@ -249,9 +249,9 @@ function crunge_related_posts() {
 	echo '</ul>';
 } /* end crunge related posts function */
 
-/*********************
+/*/////////////////////
 PAGE NAVI
-*********************/
+/////////////////////*/
 
 // Numeric Page Navi (built into the theme by default)
 function crunge_page_navi() {
@@ -274,9 +274,9 @@ function crunge_page_navi() {
   echo '</nav>';
 } /* end page navi */
 
-/*********************
+/*//////////////////////////////
 RANDOM CLEANUP ITEMS
-*********************/
+//////////////////////////////*/
 
 // remove the p from around imgs (http://css-tricks.com/snippets/wordpress/remove-paragraph-tags-from-around-images/)
 function crunge_filter_ptags_on_images($content){

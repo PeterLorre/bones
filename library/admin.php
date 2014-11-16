@@ -22,7 +22,7 @@ Digging into WP - http://digwp.com/2010/10/customize-wordpress-dashboard/
 
 */
 
-/************* DASHBOARD WIDGETS *****************/
+/*//////////////// DASHBOARD WIDGETS /////////////////*/
 
 // disable default dashboard widgets
 function disable_default_dashboard_widgets() {
@@ -105,7 +105,7 @@ add_action( 'wp_dashboard_setup', 'disable_default_dashboard_widgets' );
 add_action( 'wp_dashboard_setup', 'crunge_custom_dashboard_widgets' );
 
 
-/************* CUSTOM LOGIN PAGE *****************/
+/*////////////// CUSTOM LOGIN PAGE //////////////*/
 
 // calling your own login css so you can style it
 
@@ -127,7 +127,7 @@ add_filter( 'login_headerurl', 'crunge_login_url' );
 add_filter( 'login_headertitle', 'crunge_login_title' );
 
 
-/************* CUSTOMIZE ADMIN *******************/
+/*//////////////// CUSTOMIZE ADMIN ////////////////*/
 
 /*
 I don't really recommend editing the admin too much

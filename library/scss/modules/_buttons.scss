@@ -1,4 +1,5 @@
-/******************************************************************
+/*///////////////////////////////////////////////////////////////////////
+
 Site Name:
 Author:
 
@@ -11,9 +12,9 @@ to create all kinds of buttons.
 Helpful Links:
 http://galp.in/blog/2011/08/02/the-ui-guide-part-1-buttons/
 
-******************************************************************/
+///////////////////////////////////////////////////////////////////////*/
 
-/*********************
+/*
 BUTTON DEFAULTS
 We're gonna use a placeholder selector here
 so we can use common styles. We then use this
@@ -21,8 +22,7 @@ to load up the defaults in all our buttons.
 
 Here's a quick video to show how it works:
 http://www.youtube.com/watch?v=hwdVpKiJzac
-
-*********************/
+*/
 
 %btn {
   display: inline-block;

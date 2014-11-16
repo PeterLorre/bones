@@ -1,4 +1,5 @@
-/******************************************************************
+/*///////////////////////////////////////////////////////////////////////
+
 Site Name:
 Author:
 
@@ -10,7 +11,7 @@ and placed in the root theme directory folder as editor-style.css
 For more info, check out the codex:
 http://codex.wordpress.org/Editor_Style
 
-******************************************************************/
+///////////////////////////////////////////////////////////////////////*/
 
 /* Wrap the entire post style inside the TinyMCE selector, as suggested
 here http://codex.wordpress.org/Function_Reference/add_editor_style */
@@ -38,9 +39,9 @@ body#tinymce.wp-editor {
 	color: $text-color;
   -webkit-font-smoothing: antialiased;
 
-  /*********************
+	/*///////////////////
 	LINK STYLES
-	*********************/
+	///////////////////*/
 
 	a, a:visited {
 		color: $link-color;
@@ -61,9 +62,9 @@ body#tinymce.wp-editor {
 		}
 	}
 
-	/******************************************************************
+	/*/////////////////////////////////
 	H1, H2, H3, H4, H5 STYLES
-	******************************************************************/
+	/////////////////////////////////*/
 
 	h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 		text-rendering: optimizelegibility;
@@ -188,12 +189,12 @@ body#tinymce.wp-editor {
 			border-radius: 3px;
 		}
 
-		/*********************
+		/*
 		LARGER MOBILE DEVICES
 		This is for devices like the Galaxy Note or something that's
 		larger than an iPhone but smaller than a tablet. Let's call them
 		tweeners.
-		*********************/
+		*/
 		@media only screen and (min-width: 481px) {
 
 			/* at this larger size, we can start to align images */
@@ -215,7 +216,5 @@ body#tinymce.wp-editor {
 			}
 
 		}
-
-
 }
 

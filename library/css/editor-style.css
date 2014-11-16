@@ -1,19 +1,6 @@
-/******************************************************************
-Site Name:
-Author:
-
-Stylesheet: TinyMCE Editor
-
-This stylesheet is loaded automatically by Wordpress when compiled
-and placed in the root theme directory folder as editor-style.css
-
-For more info, check out the codex:
-http://codex.wordpress.org/Editor_Style
-
-******************************************************************/
 /* Wrap the entire post style inside the TinyMCE selector, as suggested
 here http://codex.wordpress.org/Function_Reference/add_editor_style */
-/* line 17, ../scss/editor-style.scss */
+/* line 18, ../scss/editor-style.scss */
 body#tinymce.wp-editor {
   /* normalize.css 2012-07-07T09:50 UTC - http://github.com/necolas/normalize.css */
   /* ==========================================================================
@@ -188,47 +175,16 @@ body#tinymce.wp-editor {
   use the best ampersand
   http://simplebits.com/notebook/2008/08/14/ampersands-2/
   */
-  /******************************************************************
-  Site Name:
-  Author:
-  
-  Stylesheet: Variables
-  
-  Here is where we declare all our variables like colors, fonts,
-  base values, and defaults. We want to make sure this file ONLY
-  contains variables that way our files don't get all messy.
-  No one likes a mess.
-  
-  ******************************************************************/
-  /*********************
+  /*/
   COLORS
   Need help w/ choosing your colors? Try this site out:
   http://0to255.com/
-  *********************/
+  */
   /*
   Here's a great tutorial on how to
   use color variables properly:
   http://sachagreif.com/sass-color-variables/
   */
-  /******************************************************************
-  Site Name:
-  Author:
-  
-  Stylesheet: Typography
-  
-  Need to import a font or set of icons for your site? Drop them in
-  here or just use this to establish your typographical grid. Or not.
-  Do whatever you want to...GOSH!
-  
-  Helpful Articles:
-  http://trentwalton.com/2012/06/19/fluid-type/
-  http://ia.net/blog/responsive-typography-the-basics/
-  http://alistapart.com/column/responsive-typography-is-a-physical-discipline
-  
-  ******************************************************************/
-  /*********************
-  FONT FACE (IN YOUR FACE)
-  *********************/
   /*  To embed your own fonts, use this syntax
     and place your fonts inside the
     library/fonts folder. For more information
@@ -260,24 +216,7 @@ body#tinymce.wp-editor {
   some nice typographical defaults
   more here: http://www.newnet-soft.com/blog/csstypography
   */
-  /******************************************************************
-  Site Name:
-  Author:
-  
-  Stylesheet: Sass Functions
-  
-  You can do a lot of really cool things in Sass. Functions help you
-  make repeated actions a lot easier. They are really similar to mixins,
-  but can be used for so much more.
-  
-  Anyway, keep them all in here so it's easier to find when you're
-  looking for one.
-  
-  For more info on functions, go here:
-  http://sass-lang.com/documentation/Sass/Script/Functions.html
-  
-  ******************************************************************/
-  /*********************
+  /*
   COLOR FUNCTIONS
   These are helpful when you're working
   with shadows and such things. It's essentially
@@ -287,8 +226,8 @@ body#tinymce.wp-editor {
   box-shadow: 0 0 4px black(0.3);
   compiles to:
   box-shadow: 0 0 4px rgba(0,0,0,0.3);
-  *********************/
-  /*********************
+  */
+  /*
   RESPONSIVE HELPER FUNCTION
   If you're creating a responsive site, then
   you've probably already read
@@ -304,46 +243,19 @@ body#tinymce.wp-editor {
   width: calc-percent(650px, 1000px);
   both compile to:
   width: 65%;
-  *********************/
-  /******************************************************************
-  Site Name:
-  Author:
-  
-  Stylesheet: Mixins Stylesheet
-  
-  This is where you can take advantage of Sass' great features: Mixins.
-  I won't go in-depth on how they work exactly,
-  there are a few articles below that will help do that. What I will
-  tell you is that this will help speed up simple changes like
-  changing a color or adding CSS3 techniques gradients.
-  
-  A WORD OF WARNING: It's very easy to overdo it here. Be careful and
-  remember less is more.
-  
-  Helpful:
-  http://sachagreif.com/useful-sass-mixins/
-  http://thesassway.com/intermediate/leveraging-sass-mixins-for-cleaner-code
-  http://web-design-weekly.com/blog/2013/05/12/handy-sass-mixins/
-  
-  ******************************************************************/
-  /*********************
-  TRANSITION
-  *********************/
+  */
   /*
   I totally rewrote this to be cleaner and easier to use.
   You'll need to be using Sass 3.2+ for these to work.
   Thanks to @anthonyshort for the inspiration on these.
   USAGE: @include transition(all 0.2s ease-in-out);
   */
-  /*********************
+  /*
   CSS3 GRADIENTS
   Be careful with these since they can
   really slow down your CSS. Don't overdo it.
-  *********************/
+  */
   /* @include css-gradient(#dfdfdf,#f8f8f8); */
-  /*********************
-  BOX SIZING
-  *********************/
   /* @include box-sizing(border-box); */
   /* NOTE: value of "padding-box" is only supported in Gecko. So
   probably best not to use it. I mean, were you going to anyway? */
@@ -353,19 +265,19 @@ body#tinymce.wp-editor {
   line-height: 1.5;
   color: #5c6b80;
   -webkit-font-smoothing: antialiased;
-  /*********************
-	LINK STYLES
-	*********************/
-  /******************************************************************
-  H1, H2, H3, H4, H5 STYLES
-  ******************************************************************/
+                  /*///////////////////
+LINK STYLES
+///////////////////*/
+                                /*/////////////////////////////////
+H1, H2, H3, H4, H5 STYLES
+/////////////////////////////////*/
   padding: 1.5em 1.5em 0;
-  /*********************
+  /*
   LARGER MOBILE DEVICES
   This is for devices like the Galaxy Note or something that's
   larger than an iPhone but smaller than a tablet. Let's call them
   tweeners.
-  *********************/
+  */
 }
 /* line 23, ../scss/partials/_normalize.scss */
 body#tinymce.wp-editor article,
@@ -682,67 +594,67 @@ body#tinymce.wp-editor p {
   -o-font-feature-settings: "liga", "dlig";
   font-feature-settings: "liga", "dlig";
 }
-/* line 45, ../scss/editor-style.scss */
+/* line 46, ../scss/editor-style.scss */
 body#tinymce.wp-editor a, body#tinymce.wp-editor a:visited {
   color: #f01d4f;
   /* on hover */
   /* on click */
 }
-/* line 49, ../scss/editor-style.scss */
+/* line 50, ../scss/editor-style.scss */
 body#tinymce.wp-editor a:hover, body#tinymce.wp-editor a:focus, body#tinymce.wp-editor a:visited:hover, body#tinymce.wp-editor a:visited:focus {
   color: #d10e3c;
 }
-/* line 58, ../scss/editor-style.scss */
+/* line 59, ../scss/editor-style.scss */
 body#tinymce.wp-editor a:link, body#tinymce.wp-editor a:visited:link {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
 }
-/* line 68, ../scss/editor-style.scss */
+/* line 69, ../scss/editor-style.scss */
 body#tinymce.wp-editor h1, body#tinymce.wp-editor .h1, body#tinymce.wp-editor h2, body#tinymce.wp-editor .h2, body#tinymce.wp-editor h3, body#tinymce.wp-editor .h3, body#tinymce.wp-editor h4, body#tinymce.wp-editor .h4, body#tinymce.wp-editor h5, body#tinymce.wp-editor .h5 {
   text-rendering: optimizelegibility;
   font-weight: 500;
 }
-/* line 71, ../scss/editor-style.scss */
+/* line 72, ../scss/editor-style.scss */
 body#tinymce.wp-editor h1 a, body#tinymce.wp-editor .h1 a, body#tinymce.wp-editor h2 a, body#tinymce.wp-editor .h2 a, body#tinymce.wp-editor h3 a, body#tinymce.wp-editor .h3 a, body#tinymce.wp-editor h4 a, body#tinymce.wp-editor .h4 a, body#tinymce.wp-editor h5 a, body#tinymce.wp-editor .h5 a {
   text-decoration: none;
 }
-/* line 76, ../scss/editor-style.scss */
+/* line 77, ../scss/editor-style.scss */
 body#tinymce.wp-editor h1, body#tinymce.wp-editor .h1 {
   font-size: 2.5em;
   line-height: 1.333em;
 }
-/* line 81, ../scss/editor-style.scss */
+/* line 82, ../scss/editor-style.scss */
 body#tinymce.wp-editor h2, body#tinymce.wp-editor .h2 {
   font-size: 1.75em;
   line-height: 1.4em;
   margin-bottom: 0.375em;
 }
-/* line 87, ../scss/editor-style.scss */
+/* line 88, ../scss/editor-style.scss */
 body#tinymce.wp-editor h3, body#tinymce.wp-editor .h3 {
   font-size: 1.125em;
 }
-/* line 91, ../scss/editor-style.scss */
+/* line 92, ../scss/editor-style.scss */
 body#tinymce.wp-editor h4, body#tinymce.wp-editor .h4 {
   font-size: 1.1em;
   font-weight: 700;
 }
-/* line 96, ../scss/editor-style.scss */
+/* line 97, ../scss/editor-style.scss */
 body#tinymce.wp-editor h5, body#tinymce.wp-editor .h5 {
   font-size: 0.846em;
   line-height: 2.09em;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-/* line 105, ../scss/editor-style.scss */
+/* line 106, ../scss/editor-style.scss */
 body#tinymce.wp-editor p {
   margin: 0 0 1.5em;
 }
-/* line 109, ../scss/editor-style.scss */
+/* line 110, ../scss/editor-style.scss */
 body#tinymce.wp-editor table {
   width: 100%;
   border: 1px solid #eaedf2;
   margin-bottom: 1.5em;
 }
-/* line 114, ../scss/editor-style.scss */
+/* line 115, ../scss/editor-style.scss */
 body#tinymce.wp-editor table caption {
   margin: 0 0 7px;
   font-size: 0.75em;
@@ -750,34 +662,34 @@ body#tinymce.wp-editor table caption {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-/* line 123, ../scss/editor-style.scss */
+/* line 124, ../scss/editor-style.scss */
 body#tinymce.wp-editor tr {
   border-bottom: 1px solid #eaedf2;
 }
-/* line 125, ../scss/editor-style.scss */
+/* line 126, ../scss/editor-style.scss */
 body#tinymce.wp-editor tr:nth-child(even) {
   background-color: #f8f9fa;
 }
-/* line 130, ../scss/editor-style.scss */
+/* line 131, ../scss/editor-style.scss */
 body#tinymce.wp-editor td {
   padding: 7px;
   border-right: 1px solid #eaedf2;
 }
-/* line 134, ../scss/editor-style.scss */
+/* line 135, ../scss/editor-style.scss */
 body#tinymce.wp-editor td:last-child {
   border-right: 0;
 }
-/* line 139, ../scss/editor-style.scss */
+/* line 140, ../scss/editor-style.scss */
 body#tinymce.wp-editor th {
   background-color: #f8f9fa;
   border-bottom: 1px solid #eaedf2;
   border-right: 1px solid #eaedf2;
 }
-/* line 144, ../scss/editor-style.scss */
+/* line 145, ../scss/editor-style.scss */
 body#tinymce.wp-editor th:last-child {
   border-right: 0;
 }
-/* line 149, ../scss/editor-style.scss */
+/* line 150, ../scss/editor-style.scss */
 body#tinymce.wp-editor blockquote {
   margin: 0 0 1.5em 0.75em;
   padding: 0 0 0 0.75em;
@@ -785,20 +697,20 @@ body#tinymce.wp-editor blockquote {
   font-style: italic;
   color: #9fa6b4;
 }
-/* line 160, ../scss/editor-style.scss */
+/* line 161, ../scss/editor-style.scss */
 body#tinymce.wp-editor dd {
   margin-left: 0;
   font-size: 0.9em;
   color: #787878;
   margin-bottom: 1.5em;
 }
-/* line 167, ../scss/editor-style.scss */
+/* line 168, ../scss/editor-style.scss */
 body#tinymce.wp-editor img {
   margin: 0 0 1.5em 0;
   max-width: 100%;
   height: auto;
 }
-/* line 177, ../scss/editor-style.scss */
+/* line 178, ../scss/editor-style.scss */
 body#tinymce.wp-editor .size-auto,
 body#tinymce.wp-editor .size-full,
 body#tinymce.wp-editor .size-large,
@@ -807,7 +719,7 @@ body#tinymce.wp-editor .size-thumbnail {
   max-width: 100%;
   height: auto;
 }
-/* line 182, ../scss/editor-style.scss */
+/* line 183, ../scss/editor-style.scss */
 body#tinymce.wp-editor pre {
   background: #323944;
   color: #f8f9fa;
@@ -817,23 +729,23 @@ body#tinymce.wp-editor pre {
   border-radius: 3px;
 }
 @media only screen and (min-width: 481px) {
-  /* line 17, ../scss/editor-style.scss */
+  /* line 18, ../scss/editor-style.scss */
   body#tinymce.wp-editor {
     /* at this larger size, we can start to align images */
   }
-  /* line 200, ../scss/editor-style.scss */
+  /* line 201, ../scss/editor-style.scss */
   body#tinymce.wp-editor .alignleft, body#tinymce.wp-editor img.alignleft {
     margin-right: 1.5em;
     display: inline;
     float: left;
   }
-  /* line 205, ../scss/editor-style.scss */
+  /* line 206, ../scss/editor-style.scss */
   body#tinymce.wp-editor .alignright, body#tinymce.wp-editor img.alignright {
     margin-left: 1.5em;
     display: inline;
     float: right;
   }
-  /* line 210, ../scss/editor-style.scss */
+  /* line 211, ../scss/editor-style.scss */
   body#tinymce.wp-editor .aligncenter, body#tinymce.wp-editor img.aligncenter {
     margin-right: auto;
     margin-left: auto;

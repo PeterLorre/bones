@@ -1,4 +1,5 @@
-/******************************************************************
+/*///////////////////////////////////////////////////////////////////////
+
 Site Name:
 Author:
 
@@ -13,7 +14,7 @@ A word of warning. This size COULD be a larger mobile device,
 so you still want to keep it pretty light and simply expand
 upon your base.scss styles.
 
-******************************************************************/
+///////////////////////////////////////////////////////////////////////*/
 
 /*
 IMPORTANT NOTE ABOUT SASS 3.3 & UP
@@ -23,9 +24,9 @@ them in here, they won't work.
 */
 
 
-/*********************
+/*////////////////////
 NAVIGATION STYLES
-*********************/
+////////////////////*/
 
 .nav {}
 
@@ -73,9 +74,9 @@ NAVIGATION STYLES
 		} /* end .menu ul */
 	} /* end .menu */
 
-/*********************
+/*///////////////////////
 POSTS & CONTENT STYLES
-*********************/
+///////////////////////*/
 
 /* entry content */
 .entry-content {
@@ -101,9 +102,9 @@ POSTS & CONTENT STYLES
 
 } /* end .entry-content */
 
-/*********************
+/*////////////////////
 FOOTER STYLES
-*********************/
+////////////////////*/
 
 /*
 check your menus here. do they look good?
