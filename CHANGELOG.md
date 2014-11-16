@@ -4,9 +4,9 @@ This theme is meant to make development easier & take
 advantage of modern web development & design techniques.
 For more information, please visit:
 
-http://themble.com/bones/
+http://crungedesign.com
 
-Author: Eddie Machado
+Author: Crunge Design
 
 *******************************************************************
 

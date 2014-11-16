@@ -1,13 +1,13 @@
-# Bones
+# Crunge
 A Lightweight Wordpress Development Theme
 
-Bones is designed to make the life of developers easier. It's built
+Crunge is designed to make the life of developers easier. It's built
 using HTML5 & has a strong semantic foundation.
 It's constantly growing so be sure to check back often if you are a
 frequent user. I'm always open to contribution. :)
 
-Designed by Eddie Machado
-http://themble.com/bones
+Designed by Crunge Design
+http://crungedesign.com
 
 License: WTFPL
 License URI: http://sam.zoy.org/wtfpl/
@@ -21,7 +21,7 @@ David Dellanave for speed & code optimization
 and several other developers. :)
 
 #### Submit Bugs & or Fixes:
-https://github.com/eddiemachado/bones/issues
+https://github.com/eddiemachado/crunge/issues
 
 To view Release & Update Notes, read the log.txt file inside
 the library folder.
@@ -31,8 +31,8 @@ doing with my life, follow me on twitter: @eddiemachado
 
 ## Helpful Tools & Links
 
-Yeoman generator to quickly install Bones Wordpress starter theme into your Wordpress theme folder
+Yeoman generator to quickly install crunge Wordpress starter theme into your Wordpress theme folder
 by 0dp
-https://github.com/0dp/generator-wp-bones
+https://github.com/0dp/generator-wp-crunge
 
 

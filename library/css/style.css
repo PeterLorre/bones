@@ -1,4 +1,4 @@
-/*! Made with Bones: http://themble.com/bones :) */
+/*! Made with crunge: http://crungedesign.com :) */
 /******************************************************************
 Site Name:
 Author:
@@ -604,7 +604,7 @@ https://github.com/devinhunt/typebase.css
 I've edited it a bit, but it's a nice starting point.
 */
 /*
- i imported this one in the functions file so bones would look sweet.
+ i imported this one in the functions file so crunge would look sweet.
  don't forget to remove it for your site.
 */
 /*
@@ -1909,7 +1909,7 @@ PAGE NAVI STYLES
   color: #5c6b80;
 }
 
-/* end .bones_page_navi */
+/* end .crunge_page_navi */
 /* fallback previous & next links */
 /* line 554, ../scss/breakpoints/_base.scss */
 .wp-prev-next .prev-link {
