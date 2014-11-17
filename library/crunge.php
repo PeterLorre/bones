@@ -1,13 +1,5 @@
 <?php
-/* Welcome to crunge :)
-This is the core crunge file where most of the
-main functions & features reside. If you have
-any custom functions, it's best to put them
-in the functions.php file.
-
-Developed by: Crunge Design
-URL: http://crungedesign.com
-
+/*
   - head cleanup (remove rsd, uri links, junk css, ect)
   - enqueueing scripts & styles
   - theme support functions
@@ -18,7 +10,6 @@ URL: http://crungedesign.com
   - customizing the post excerpt
   - custom google+ integration
   - adding custom fields to user profiles
-
 */
 
 /*

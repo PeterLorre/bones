@@ -1,24 +1,10 @@
 <?php
 /*
-This file handles the admin area and functions.
-You can use this file to make changes to the
-dashboard. Updates to this page are coming soon.
-It's turned off by default, but you can call it
-via the functions file.
-
-Developed by: Crunge Design
-URL: http://crungedesign.com
-
-Special Thanks for code & inspiration to:
-@jackmcconnell - http://www.voltronik.co.uk/
-Digging into WP - http://digwp.com/2010/10/customize-wordpress-dashboard/
-
 
 	- removing some default WordPress dashboard widgets
 	- an example custom dashboard widget
 	- adding custom login css
 	- changing text in footer of admin
-
 
 */
 
@@ -43,12 +29,6 @@ function disable_default_dashboard_widgets() {
 	unset($wp_meta_boxes['dashboard']['normal']['core']['rg_forms_dashboard']);        // Gravity Forms Plugin Widget
 	unset($wp_meta_boxes['dashboard']['normal']['core']['bbp-dashboard-right-now']);   // bbPress Plugin Widget
 
-	/*
-	have more plugin widgets you'd like to remove?
-	share them with us so we can get a list of
-	the most commonly used. :D
-	https://github.com/eddiemachado/crunge/issues
-	*/
 }
 
 /*
@@ -138,7 +118,7 @@ you like.
 
 // Custom Backend Footer
 function crunge_custom_admin_footer() {
-	_e( '<span id="footer-thankyou">Developed by <a href="http://yoursite.com" target="_blank">Your Site Name</a></span>. Built using <a href="http://crungedesign.com" target="_blank">crunge</a>.', 'crungetheme' );
+	_e( '<span id="footer-thankyou">Developed by <a href="http://yoursite.com" target="_blank">Your Site Name</a></span>. Built using <a href="http://procatinator.com" target="_blank">crunge</a>.', 'crungetheme' );
 }
 
 // adding it to the admin area
