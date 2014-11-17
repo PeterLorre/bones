@@ -242,5 +242,18 @@ function crunge_fonts() {
 add_action('wp_enqueue_scripts', 'crunge_fonts');
 
 
+function crunge_scripts() {
+
+  // register bootstrap cdn css + js
+  wp_enqueue_style( 'style-bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css', array(), '', 'all' );
+  wp_enqueue_script( 'script-bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js', array( 'jquery' ), '', true );
+
+    // register bootstrap cdn css + js
+  wp_enqueue_style( 'style-fontawesome', '//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css', array(), '', 'all' );
+
+}
+
+add_action('wp_enqueue_scripts', 'crunge_scripts');
+
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>
